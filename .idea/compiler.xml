@@ -7,9 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mall-user" />
-        <module name="mall-user-consumer-demo" />
-        <module name="spring-cloud-alibaba-nacos-sidecar-demo" />
         <module name="mall-order" />
+        <module name="mall-user-consumer-demo" />
         <module name="mall-common" />
       </profile>
     </annotationProcessing>
@@ -17,9 +16,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mall-common" options="-parameters" />
+      <module name="mall-order" options="-parameters" />
       <module name="mall-user" options="-parameters" />
       <module name="mall-user-consumer-demo" options="-parameters" />
-      <module name="spring-cloud-alibaba-nacos-sidecar-demo" options="-parameters" />
+      <module name="spring-cloud-alibaba-nacos-sidecar-demo" options="" />
     </option>
   </component>
 </project>
