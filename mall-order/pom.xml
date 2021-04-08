@@ -7,15 +7,12 @@
         <artifactId>spring-cloud-alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.tuling.mall</groupId>
+    <groupId>com.heyou.mall</groupId>
     <artifactId>mall-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mall-order</name>
     <description>订单微服务</description>
-
-
     <dependencies>
-
         <dependency>
             <groupId>com.heyou.mall</groupId>
             <artifactId>mall-common</artifactId>
@@ -28,11 +25,7 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-
-
     </dependencies>
-
-
     <build>
         <plugins>
             <plugin>
